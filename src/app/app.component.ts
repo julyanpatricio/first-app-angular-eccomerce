@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'first-app-anglar';
+  getName():void{
+    console.log('firs app');
+    
+  }
 }
